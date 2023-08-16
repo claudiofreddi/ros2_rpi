@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000579] (py_vision_rpi_bot) JobQueued: {'identifier': 'py_vision_rpi_bot', 'dependencies': OrderedDict()}
+[0.002466] (py_vision_rpi_bot) JobStarted: {'identifier': 'py_vision_rpi_bot'}
+[0.099886] (-) TimerEvent: {}
+[0.202266] (-) TimerEvent: {}
+[0.304286] (-) TimerEvent: {}
+[0.405559] (-) TimerEvent: {}
+[0.507393] (-) TimerEvent: {}
+[0.608906] (-) TimerEvent: {}
+[0.710505] (-) TimerEvent: {}
+[0.811822] (-) TimerEvent: {}
+[0.913117] (-) TimerEvent: {}
+[1.014533] (-) TimerEvent: {}
+[1.116034] (-) TimerEvent: {}
+[1.218115] (-) TimerEvent: {}
+[1.319355] (-) TimerEvent: {}
+[1.420329] (-) TimerEvent: {}
+[1.522016] (-) TimerEvent: {}
+[1.623909] (-) TimerEvent: {}
+[1.725962] (-) TimerEvent: {}
+[1.835746] (-) TimerEvent: {}
+[1.937337] (-) TimerEvent: {}
+[2.038892] (-) TimerEvent: {}
+[2.140044] (-) TimerEvent: {}
+[2.243286] (-) TimerEvent: {}
+[2.357453] (-) TimerEvent: {}
+[2.463102] (-) TimerEvent: {}
+[2.580280] (-) TimerEvent: {}
+[2.682152] (-) TimerEvent: {}
+[2.783751] (-) TimerEvent: {}
+[2.885508] (-) TimerEvent: {}
+[2.986957] (-) TimerEvent: {}
+[3.088858] (-) TimerEvent: {}
+[3.190196] (-) TimerEvent: {}
+[3.291796] (-) TimerEvent: {}
+[3.393075] (-) TimerEvent: {}
+[3.494756] (-) TimerEvent: {}
+[3.597169] (-) TimerEvent: {}
+[3.700785] (-) TimerEvent: {}
+[3.802684] (-) TimerEvent: {}
+[3.904051] (-) TimerEvent: {}
+[4.005490] (-) TimerEvent: {}
+[4.106969] (-) TimerEvent: {}
+[4.208901] (-) TimerEvent: {}
+[4.310422] (-) TimerEvent: {}
+[4.411577] (-) TimerEvent: {}
+[4.512847] (-) TimerEvent: {}
+[4.616324] (-) TimerEvent: {}
+[4.731246] (-) TimerEvent: {}
+[4.833067] (-) TimerEvent: {}
+[4.891108] (py_vision_rpi_bot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/py_vision_rpi_bot', 'build', '--build-base', '/home/claudio/workspaces/src/py_vision_rpi_bot/build/py_vision_rpi_bot/build', 'install', '--record', '/home/claudio/workspaces/src/py_vision_rpi_bot/build/py_vision_rpi_bot/install.log', '--single-version-externally-managed'], 'cwd': '/home/claudio/workspaces/src/py_vision_rpi_bot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'claudio', 'LC_TIME': 'it_IT.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/claudio', 'OLDPWD': '/home/claudio/workspaces/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'MANAGERPID': '806', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '914', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9d55ffd077e1e8e97c8b31164dca05e', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'claudio', 'JOURNAL_STREAM': '8:22658', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'claudio', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ROS2Humble:@/tmp/.ICE-unix/914,unix/ROS2Humble:/tmp/.ICE-unix/914', 'INVOCATION_ID': 'ff225c8ff468490f894142933e19f28f', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'TILIX_ID': '05a07a24-3f13-46c2-8a85-4f698ed41b74', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.57IL91', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/claudio/workspaces/src/py_vision_rpi_bot/build/py_vision_rpi_bot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e9d55ffd077e1e8e97c8b31164dca05e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/claudio/workspaces/src/py_vision_rpi_bot/build/py_vision_rpi_bot/prefix_override:/home/claudio/workspaces/src/py_vision_rpi_bot/install/py_vision_rpi_bot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.962082] (-) TimerEvent: {}
+[5.065537] (-) TimerEvent: {}
+[5.180587] (-) TimerEvent: {}
+[5.296820] (-) TimerEvent: {}
+[5.399440] (-) TimerEvent: {}
+[5.500911] (-) TimerEvent: {}
+[5.602584] (-) TimerEvent: {}
+[5.703952] (-) TimerEvent: {}
+[5.805334] (-) TimerEvent: {}
+[5.909899] (-) TimerEvent: {}
+[6.010973] (-) TimerEvent: {}
+[6.112184] (-) TimerEvent: {}
+[6.213340] (-) TimerEvent: {}
+[6.314842] (-) TimerEvent: {}
+[6.415983] (-) TimerEvent: {}
+[6.517860] (-) TimerEvent: {}
+[6.620494] (-) TimerEvent: {}
+[6.722405] (-) TimerEvent: {}
+[6.823696] (-) TimerEvent: {}
+[6.925137] (-) TimerEvent: {}
+[7.025221] (py_vision_rpi_bot) StdoutLine: {'line': b'running egg_info\n'}
+[7.026864] (-) TimerEvent: {}
+[7.030206] (py_vision_rpi_bot) StdoutLine: {'line': b'writing build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/PKG-INFO\n'}
+[7.035124] (py_vision_rpi_bot) StdoutLine: {'line': b'writing dependency_links to build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/dependency_links.txt\n'}
+[7.035606] (py_vision_rpi_bot) StdoutLine: {'line': b'writing entry points to build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/entry_points.txt\n'}
+[7.036040] (py_vision_rpi_bot) StdoutLine: {'line': b'writing requirements to build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/requires.txt\n'}
+[7.036390] (py_vision_rpi_bot) StdoutLine: {'line': b'writing top-level names to build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/top_level.txt\n'}
+[7.047106] (py_vision_rpi_bot) StdoutLine: {'line': b"reading manifest file 'build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/SOURCES.txt'\n"}
+[7.052576] (py_vision_rpi_bot) StdoutLine: {'line': b"writing manifest file 'build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/SOURCES.txt'\n"}
+[7.053848] (py_vision_rpi_bot) StdoutLine: {'line': b'running build\n'}
+[7.054556] (py_vision_rpi_bot) StdoutLine: {'line': b'running build_py\n'}
+[7.055353] (py_vision_rpi_bot) StdoutLine: {'line': b'copying py_vision_rpi_bot/subscriber.py -> /home/claudio/workspaces/src/py_vision_rpi_bot/build/py_vision_rpi_bot/build/lib/py_vision_rpi_bot\n'}
+[7.062876] (py_vision_rpi_bot) StdoutLine: {'line': b'running install\n'}
+[7.063819] (py_vision_rpi_bot) StdoutLine: {'line': b'running install_lib\n'}
+[7.078551] (py_vision_rpi_bot) StdoutLine: {'line': b'copying /home/claudio/workspaces/src/py_vision_rpi_bot/build/py_vision_rpi_bot/build/lib/py_vision_rpi_bot/subscriber.py -> /home/claudio/workspaces/src/py_vision_rpi_bot/install/py_vision_rpi_bot/lib/python3.10/site-packages/py_vision_rpi_bot\n'}
+[7.080618] (py_vision_rpi_bot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.083898] (py_vision_rpi_bot) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.086585] (py_vision_rpi_bot) StdoutLine: {'line': b'byte-compiling /home/claudio/workspaces/src/py_vision_rpi_bot/install/py_vision_rpi_bot/lib/python3.10/site-packages/py_vision_rpi_bot/subscriber.py to subscriber.cpython-310.pyc\n'}
+[7.090799] (py_vision_rpi_bot) StdoutLine: {'line': b'running install_data\n'}
+[7.098155] (py_vision_rpi_bot) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.102921] (py_vision_rpi_bot) StdoutLine: {'line': b"removing '/home/claudio/workspaces/src/py_vision_rpi_bot/install/py_vision_rpi_bot/lib/python3.10/site-packages/py_vision_rpi_bot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.104708] (py_vision_rpi_bot) StdoutLine: {'line': b'Copying build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info to /home/claudio/workspaces/src/py_vision_rpi_bot/install/py_vision_rpi_bot/lib/python3.10/site-packages/py_vision_rpi_bot-0.0.0-py3.10.egg-info\n'}
+[7.111591] (py_vision_rpi_bot) StdoutLine: {'line': b'running install_scripts\n'}
+[7.127588] (-) TimerEvent: {}
+[7.230241] (-) TimerEvent: {}
+[7.310635] (py_vision_rpi_bot) StdoutLine: {'line': b'Installing publisher_node script to /home/claudio/workspaces/src/py_vision_rpi_bot/install/py_vision_rpi_bot/lib/py_vision_rpi_bot\n'}
+[7.312776] (py_vision_rpi_bot) StdoutLine: {'line': b'Installing subscriber_node script to /home/claudio/workspaces/src/py_vision_rpi_bot/install/py_vision_rpi_bot/lib/py_vision_rpi_bot\n'}
+[7.316286] (py_vision_rpi_bot) StdoutLine: {'line': b"writing list of installed files to '/home/claudio/workspaces/src/py_vision_rpi_bot/build/py_vision_rpi_bot/install.log'\n"}
+[7.330455] (-) TimerEvent: {}
+[7.431743] (-) TimerEvent: {}
+[7.535579] (py_vision_rpi_bot) CommandEnded: {'returncode': 0}
+[7.538904] (-) TimerEvent: {}
+[7.640500] (-) TimerEvent: {}
+[7.742556] (-) TimerEvent: {}
+[7.759602] (py_vision_rpi_bot) JobEnded: {'identifier': 'py_vision_rpi_bot', 'rc': 0}
+[7.768620] (-) EventReactorShutdown: {}
