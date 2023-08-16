@@ -1,0 +1,41 @@
+[4.111s] Invoking command in '/home/claudio/workspaces/src/ros2_rpi/py_vision_rpi_bot': PYTHONPATH=/home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/prefix_override:/home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_vision_rpi_bot build --build-base /home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/build install --record /home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/install.log --single-version-externally-managed
+[5.797s] running egg_info
+[5.800s] creating ../build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info
+[5.801s] writing ../build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/PKG-INFO
+[5.802s] writing dependency_links to ../build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/dependency_links.txt
+[5.803s] writing entry points to ../build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/entry_points.txt
+[5.804s] writing requirements to ../build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/requires.txt
+[5.806s] writing top-level names to ../build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/top_level.txt
+[5.806s] writing manifest file '../build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/SOURCES.txt'
+[5.812s] reading manifest file '../build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/SOURCES.txt'
+[5.815s] writing manifest file '../build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info/SOURCES.txt'
+[5.815s] running build
+[5.816s] running build_py
+[5.817s] creating /home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/build
+[5.818s] creating /home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/build/lib
+[5.818s] creating /home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/build/lib/py_vision_rpi_bot
+[5.819s] copying py_vision_rpi_bot/__init__.py -> /home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/build/lib/py_vision_rpi_bot
+[5.819s] copying py_vision_rpi_bot/subscriber.py -> /home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/build/lib/py_vision_rpi_bot
+[5.820s] copying py_vision_rpi_bot/publisher.py -> /home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/build/lib/py_vision_rpi_bot
+[5.820s] running install
+[5.820s] running install_lib
+[5.824s] creating /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/lib/python3.10/site-packages/py_vision_rpi_bot
+[5.825s] copying /home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/build/lib/py_vision_rpi_bot/__init__.py -> /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/lib/python3.10/site-packages/py_vision_rpi_bot
+[5.826s] copying /home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/build/lib/py_vision_rpi_bot/subscriber.py -> /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/lib/python3.10/site-packages/py_vision_rpi_bot
+[5.826s] copying /home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/build/lib/py_vision_rpi_bot/publisher.py -> /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/lib/python3.10/site-packages/py_vision_rpi_bot
+[5.828s] byte-compiling /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/lib/python3.10/site-packages/py_vision_rpi_bot/__init__.py to __init__.cpython-310.pyc
+[5.833s] byte-compiling /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/lib/python3.10/site-packages/py_vision_rpi_bot/subscriber.py to subscriber.cpython-310.pyc
+[5.834s] byte-compiling /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/lib/python3.10/site-packages/py_vision_rpi_bot/publisher.py to publisher.cpython-310.pyc
+[5.834s] running install_data
+[5.844s] creating /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/share/ament_index
+[5.844s] creating /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/share/ament_index/resource_index
+[5.844s] creating /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/share/ament_index/resource_index/packages
+[5.845s] copying resource/py_vision_rpi_bot -> /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/share/ament_index/resource_index/packages
+[5.845s] copying package.xml -> /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/share/py_vision_rpi_bot
+[5.845s] running install_egg_info
+[5.846s] Copying ../build/py_vision_rpi_bot/py_vision_rpi_bot.egg-info to /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/lib/python3.10/site-packages/py_vision_rpi_bot-0.0.0-py3.10.egg-info
+[5.872s] running install_scripts
+[5.949s] Installing publisher_node script to /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/lib/py_vision_rpi_bot
+[5.950s] Installing subscriber_node script to /home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/lib/py_vision_rpi_bot
+[5.951s] writing list of installed files to '/home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/install.log'
+[6.125s] Invoked command in '/home/claudio/workspaces/src/ros2_rpi/py_vision_rpi_bot' returned '0': PYTHONPATH=/home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/prefix_override:/home/claudio/workspaces/src/ros2_rpi/install/py_vision_rpi_bot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_vision_rpi_bot build --build-base /home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/build install --record /home/claudio/workspaces/src/ros2_rpi/build/py_vision_rpi_bot/install.log --single-version-externally-managed
